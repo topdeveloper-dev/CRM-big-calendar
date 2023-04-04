@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+::-webkit-scrollbar {
+    width: 7px; /* width of the scrollbar */
+    background: transparent; /* background color of the scrollbar */
+  }
+::-webkit-scrollbar:horizontal {
+    height: 10px; 
+    background: white !important;
+   
+  }
+  
+  /* Style the thumb (the part that you drag to scroll) */
+  ::-webkit-scrollbar-thumb {
+    background: #6e6d6d; /* background color of the thumb */
+    border-radius: 10px; /* border radius of the thumb */
+    scrollbar-color: rgb(132, 131, 131) !important;
+   
+  }
+  
+  /* Style the thumb when it's hovered */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9c9c9c; /* background color of the thumb when it's hovered */
+  }
+
+ 
+ 

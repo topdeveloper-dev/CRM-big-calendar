@@ -1,0 +1,9 @@
+.calling-container{
+    transition: all 0.15s ease-out;
+    transform: translateX(110%);
+    box-sizing: border-box ;
+}
+
+.calling-container.open{
+    transform: translate(0);
+}

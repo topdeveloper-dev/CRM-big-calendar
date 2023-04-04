@@ -1,0 +1,17 @@
+.top-nav.active{
+  color: #1e88e5;
+}
+
+.nobody{
+  color:#9ab2ff
+}
+
+*::selection{
+  color: none ;
+  background: none ;
+}
+
+input::selection, textarea::selection{
+  color: white !important;
+  background: #3390ffff !important;
+}

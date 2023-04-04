@@ -1,0 +1,16 @@
+.EmojiPickerReact{
+   /*  --epr-emoji-size: 25px !important; */
+   /*  --epr-bg-color:rgb(255, 253, 246); */
+    --epr-category-label-bg-color:rgb(251, 251, 251);
+    --epr-text-size:18px !important;
+
+    
+}
+.epr-emoji-img{
+width: 35px !important;
+height: 35px !important;
+}
+.epr-emoji-category-label{
+    font-size: 14px !important;
+}
+
